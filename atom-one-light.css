@@ -256,8 +256,11 @@ p strong span,
 p strong {
     color: #00ff35 !important;
 }
-ol li strong {
-    color: #ff6bd8!important;
+ol li strong,
+ol li span,
+ul li strong,
+ul li span {
+    color: #f4ff00!important;
 }
 .jop-tinymce table tr, 
 table tr {
