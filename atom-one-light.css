@@ -231,14 +231,14 @@ table {
     text-align: left !important;
     border-collapse: collapse !important;
     border: 1px solid rgb(220, 220, 220) !important;
-    background-color: #313131 !important;
+    background-color: #222 !important;
 }
 .jop-tinymce table th,
 table th {
     border: 1px solid rgb(220, 220, 220) !important;
     border-bottom: 2px solid rgb(220, 220, 220) !important;
-    background-color: rgb(3 3 3) !important;
-    color:#ffca00!important;
+    background-color: #030303 !important;
+    color: #00dbff!important;
 }
 .jop-tinymce table td,
 .jop-tinymce table th,
@@ -251,7 +251,7 @@ th {
 }
 .jop-tinymce table tr:nth-child(even),
 table tr:nth-child(even) {
-    background-color: rgb(22 22 22) !important;
+    background-color: #161616 !important;
 }
 p strong span,
 p strong {
@@ -278,15 +278,17 @@ font-weight: bold!important;
 table tr td  strong {
     color: #00ff35!important;
 }
-table tr td:first-child strong {
-    color: #00dbff!important;
+table tr td:first-child strong,
+table tr td:first-child {
+    color: #ffca00!important;
+    font-weight: normal!important;
 }
 blockquote { 
     opacity: 1 !important;
     margin: 30px 0 !important;
-    padding: 20px 20px !important;
+    padding: 20px !important;
     background-color: #222 !important;
-    box-shadow: 0 0 40px rgba(248, 104, 104, 0.2) !important;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.2) !important;
 }
 blockquote p {
     margin: 0!important;
@@ -316,6 +318,6 @@ blockquote p {
     }
      blockquote {
         margin: 10px 0 !important;
-        padding: 10px 10px !important;
+        padding: 10px !important;
      }
 }
