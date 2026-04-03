@@ -238,6 +238,7 @@ table th {
     border: 1px solid rgb(220, 220, 220) !important;
     border-bottom: 2px solid rgb(220, 220, 220) !important;
     background-color: rgb(3 3 3) !important;
+    color:#ffca00!important;
 }
 .jop-tinymce table td,
 .jop-tinymce table th,
@@ -264,7 +265,7 @@ ul li span {
 }
 .jop-tinymce table tr, 
 table tr {
-transition: all ease 0.4s;    
+    transition: all ease 0.4s;    
 }
 .jop-tinymce table tr:hover, 
 table tr:hover {
@@ -274,12 +275,18 @@ table tr:hover {
 font-weight: bold!important;
     color: #00ff35!important;
 }
+table tr td  strong {
+    color: #00ff35!important;
+}
+table tr td:first-child strong {
+    color: #00dbff!important;
+}
 blockquote { 
-opacity: 1 !important;
-margin: 30px 0 !important;
-padding: 20px 20px !important;
-background-color: #222 !important;
-box-shadow: 0 0 40px rgba(248, 104, 104, 0.2) !important;
+    opacity: 1 !important;
+    margin: 30px 0 !important;
+    padding: 20px 20px !important;
+    background-color: #222 !important;
+    box-shadow: 0 0 40px rgba(248, 104, 104, 0.2) !important;
 }
 blockquote p {
     margin: 0!important;
@@ -289,8 +296,8 @@ blockquote p {
     color: #fff!important;
 }
 .essay_300 p span  {
-color:#00ff35 !important;
-font-weight: bold !important; 
+    color:#00ff35 !important;
+    font-weight: bold !important; 
 }
 @media screen and (max-width: 1024px) {
     html,h1, h2, h3,h4,h5,h6 {
@@ -301,4 +308,14 @@ font-weight: bold !important;
         font-size: 14px !important; 
         line-height: 1.5 !important;
     }
+    .my-app li {
+        margin: 6px 0; 
+    }
+    .my-app li a {
+        font-size: 20px;
+    }
+     blockquote {
+        margin: 10px 0 !important;
+        padding: 10px 10px !important;
+     }
 }
