@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     list-style: none;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
 }
 .my-app li {
     margin: 16px 0;
@@ -97,7 +97,7 @@ h5,
 h6,
 table th {
     font-family: "Montserrat", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 500;
 }
 ol,
@@ -221,7 +221,7 @@ hue-6-2: #c18401
 }
 b,
 strong {
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 p a {
     color: #6ca0ff !important;
@@ -231,14 +231,14 @@ p a {
 table {
     text-align: left !important;
     border-collapse: collapse !important;
-    border: 1px solid #686868 !important;
+    border: 1px solid #444 !important;
     background-color: #222 !important;
     font-weight: normal !important;
 }
 .jop-tinymce table th,
 table th {
-    border: 1px solid #686868 !important;
-    border-bottom: 2px solid #686868 !important;
+    border: 1px solid #444 !important;
+    border-bottom: 2px solid #444 !important;
     background-color: #030303 !important;
     color: #00dbff !important;
     text-transform: uppercase !important;
@@ -252,6 +252,7 @@ table td, td {
     padding: 4px 8px !important;
     font-size: 12px !important;
     color: #fff !important;
+    border-color: #444 !important;
 }
 th,
 th strong {
@@ -259,7 +260,7 @@ th strong {
      font-weight: 600 !important;
     /* padding: 0.5em 1em 0.5em 1em !important; */
     padding: 4px 8px !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
 }
 .jop-tinymce table tr:nth-child(even),
 table tr:nth-child(even) {
@@ -291,7 +292,7 @@ table tr:hover {
 }
 table tr td strong {
     font-weight: normal !important;
-    color: #00ff35 !important;
+    color: #2aff54 !important;
 }
 table tr td:first-child strong,
 table tr td:first-child {
