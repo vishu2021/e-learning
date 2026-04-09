@@ -97,7 +97,7 @@ h5,
 h6,
 table th {
     font-family: "Montserrat", sans-serif;
-    /* letter-spacing: 1px; */
+    letter-spacing: 1px;
     font-weight: 500;
 }
 ol,
@@ -107,7 +107,7 @@ p,
 table tr,
 table td {
     font-family: "Lato", sans-serif;
-    /* letter-spacing: 0.5px;  */
+    letter-spacing: 0.5px; 
     font-weight: normal !important;
 }
 h1,
@@ -242,7 +242,7 @@ table th {
     background-color: #030303 !important;
     color: #00dbff !important;
     text-transform: uppercase !important;
-    font-weight: normal !important;
+    font-weight: 600 !important;
 }
 .jop-tinymce table td,
 table td, td {
@@ -256,7 +256,7 @@ table td, td {
 th,
 th strong {
   text-align: left !important;
-     font-weight: normal !important;
+     font-weight: 600 !important;
     /* padding: 0.5em 1em 0.5em 1em !important; */
     padding: 4px 8px !important;
     font-size: 12px !important;
