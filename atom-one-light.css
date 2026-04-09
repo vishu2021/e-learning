@@ -231,30 +231,35 @@ p a {
 table {
     text-align: left !important;
     border-collapse: collapse !important;
-    border: 1px solid rgb(220, 220, 220) !important;
+    border: 1px solid #686868 !important;
     background-color: #222 !important;
     font-weight: normal !important;
 }
 .jop-tinymce table th,
 table th {
-    border: 1px solid rgb(220, 220, 220) !important;
-    border-bottom: 2px solid rgb(220, 220, 220) !important;
+    border: 1px solid #686868 !important;
+    border-bottom: 2px solid #686868 !important;
     background-color: #030303 !important;
     color: #00dbff !important;
     text-transform: uppercase !important;
     font-weight: normal !important;
 }
 .jop-tinymce table td,
-.jop-tinymce table th,
-table td,
-th,
-th strong {
+table td, td {
     text-align: left !important;
      font-weight: normal !important;
     /* padding: 0.5em 1em 0.5em 1em !important; */
     padding: 4px 8px !important;
     font-size: 12px !important;
     color: #fff !important;
+}
+th,
+th strong {
+  text-align: left !important;
+     font-weight: normal !important;
+    /* padding: 0.5em 1em 0.5em 1em !important; */
+    padding: 4px 8px !important;
+    font-size: 12px !important;
 }
 .jop-tinymce table tr:nth-child(even),
 table tr:nth-child(even) {
