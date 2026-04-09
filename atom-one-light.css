@@ -97,7 +97,7 @@ h5,
 h6,
 table th {
     font-family: "Montserrat", sans-serif;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-weight: 700;
 }
 ol,
@@ -107,7 +107,7 @@ p,
 table tr,
 table td {
     font-family: "Lato", sans-serif;
-    letter-spacing: 0.5px; 
+    /* letter-spacing: 0.5px;  */
     font-weight: normal !important;
 }
 h1,
