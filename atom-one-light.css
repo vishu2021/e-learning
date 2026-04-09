@@ -107,8 +107,8 @@ p,
 table tr,
 table td {
     font-family: "Lato", sans-serif;
-    letter-spacing: 0.5px;
-    font-weight: 400;
+    letter-spacing: 0.5px; 
+    font-weight: normal !important;
 }
 h1,
 h1 span,
@@ -225,6 +225,7 @@ strong {
 }
 p a {
     color: #6ca0ff !important;
+    font-weight: normal !important;
 }
 .jop-tinymce table,
 table {
@@ -232,6 +233,7 @@ table {
     border-collapse: collapse !important;
     border: 1px solid rgb(220, 220, 220) !important;
     background-color: #222 !important;
+    font-weight: normal !important;
 }
 .jop-tinymce table th,
 table th {
@@ -240,14 +242,17 @@ table th {
     background-color: #030303 !important;
     color: #00dbff !important;
     text-transform: uppercase !important;
+    font-weight: normal !important;
 }
 .jop-tinymce table td,
 .jop-tinymce table th,
 table td,
 th {
     text-align: left !important;
-    padding: 0.5em 1em 0.5em 1em !important;
-    font-size: 15px !important;
+     font-weight: normal !important;
+    /* padding: 0.5em 1em 0.5em 1em !important; */
+    padding: 4px 8px !important;
+    font-size: 14px !important;
     color: #fff !important;
 }
 .jop-tinymce table tr:nth-child(even),
@@ -257,12 +262,14 @@ table tr:nth-child(even) {
 p strong span,
 p strong {
     color: #00ff35 !important;
+    font-weight: normal !important;
 }
 ol li strong,
 ol li span,
 ul li strong,
 ul li span {
     color: #f4ff00 !important;
+    font-weight: normal !important;
 }
 .jop-tinymce table tr,
 table tr {
@@ -273,7 +280,7 @@ table tr:hover {
     background-color: #002a08 !important;
 }
 .pt_qb_2 p {
-    font-weight: bold !important;
+    font-weight: normal !important;
     color: #00ff35 !important;
 }
 table tr td strong {
@@ -302,7 +309,7 @@ blockquote p {
 }
 .essay_300 p span {
     color: #00ff35 !important;
-    font-weight: bold !important;
+    font-weight: normal !important;
 }
 @media screen and (max-width: 1024px) {
     html,
